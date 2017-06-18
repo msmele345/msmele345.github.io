@@ -1,21 +1,26 @@
-body{
-
+img{
+  width: 75%;
 }
-
+body{
+  background-color: #F3FAB6
+}
 .table{
-  width: 15%;
+  width: 20%;
+  border-top: 2px solid blue;
   padding-left: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 25px; /*Remember, padding is within the border and margin is outside*/
   padding-right:30px;
   margin-left: 20px;
-  border: 2px solid grey;
 }
 
 .reflect-answers{
+  margin-top: 50px;
+  margin-bottom: 25px;
   margin-left: 20px;
   font-family: "Lucida Console", Monospace;
   background-image: url("images/bigsur.png");
   font-weight: bold;
+  border: 2px solid black;
 
 }
 
@@ -25,4 +30,17 @@ footer{
 
 .second-page{
   background-image: url("images/bigsur.png");
+}
+
+#content-overview{
+  padding-top: 20px;
+  padding-left:30px;
+  width: 20%;
+  font-family: "Geneva", sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 10px;
+  }
 }
